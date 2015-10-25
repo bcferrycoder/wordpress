@@ -1,5 +1,6 @@
 applications:
 - name: wordpress
+  host: node-chat-${random-word}
   instances: 1
   mem: 256M
   services:
